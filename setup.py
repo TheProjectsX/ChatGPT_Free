@@ -20,7 +20,7 @@ setup(
     author="TheProjectsX",
     author_email="",
     license="MIT",
-    packages=["chatgpt_free"],
+    packages=["chatgpt_free", "chatgpt_free.servers"],
     package_dir={"chatgpt_free": "chatgpt_free"},
     install_requires=requirements,
     # Include additional files
