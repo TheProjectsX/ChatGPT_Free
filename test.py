@@ -3,7 +3,8 @@ from chatgpt_free import ChatBot
 persona = "You are a QnA answering bot. No Description for any Answer. Give only the Actual Answer in max one sentence."
 
 # chatbot = ChatBot(persona=persona)
-chatbot = ChatBot(saveChatHistory=True)
+chatbot = ChatBot(model="gpt-3.5-turbo")
+# chatbot = ChatBot(saveChatHistory=True)
 
 print("\nFree ChatBot - Version 1.0\n")
 

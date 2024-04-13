@@ -1,6 +1,6 @@
 from typing import Union
 from .utils import _filterPastChatHistory, getModels
-from .servers.servers import _getServer
+from .servers.servers_original import _getServer
 
 
 # The ChatBot Class
@@ -55,7 +55,7 @@ class _BaseChatBot:
             ]
 
         if model not in getModels():
-            Server = _getServer("gpt-3.5-turbo")
+            Server = _getServer("gpt-4")
 
         Server = _getServer(model)
 

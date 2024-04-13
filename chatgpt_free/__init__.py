@@ -9,7 +9,7 @@ class ChatBot:
     # Initialize the Object
     def __init__(
         self,
-        model="gpt-3.5-turbo",
+        model="gpt-4",
         saveChatHistory: bool = False,
         pastChatHistory: list = [],
         persona: Union[None, str] = None,

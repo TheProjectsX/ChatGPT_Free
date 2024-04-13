@@ -32,7 +32,7 @@ print(response["content"])
 ### Supports:
 
 - Supports `gpt-3.5-turbo`
-- Supports `gpt-4`
+- Supports `gpt-4` (Default)
 
 ### Help:
 
