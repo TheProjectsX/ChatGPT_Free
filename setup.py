@@ -14,7 +14,7 @@ with open("requirements.txt") as f:
 
 setup(
     name="ChatGPT Free",
-    version="1.0.1",
+    version="1.0.2",
     url="https://github.com/TheProjectsX/ChatGPT_Free",
     description="Access ChatGPT For Free!",
     author="TheProjectsX",
