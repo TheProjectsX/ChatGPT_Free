@@ -18,6 +18,12 @@ Install using pip:
 pip install git+https://github.com/TheProjectsX/ChatGPT_Free.git
 ```
 
+To Update:
+
+```bash
+pip install --upgrade git+https://github.com/TheProjectsX/ChatGPT_Free.git
+```
+
 ### Uses:
 
 ```python
