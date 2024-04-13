@@ -1,6 +1,6 @@
 from typing import Union
 from .utils import _filterPastChatHistory, getModels
-from .servers.servers_original import _getServer
+from .servers.servers import _getServer
 
 
 # The ChatBot Class
